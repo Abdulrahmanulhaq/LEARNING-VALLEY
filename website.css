@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cairo:wght@200&family=Inconsolata&family=Indie+Flower&family=Mukta:wght@200&family=Nanum+Gothic&family=Noto+Sans&family=PT+Sans+Narrow&family=Varela+Round&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cairo:wght@300&family=Dosis&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Do+Hyeon&family=Lato:wght@300&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+#menu-area{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition:background 0.5s;
+}
+#menu-area.logo img{
+    height: 70px;
+    transition: height 0.5s;
+    padding-top: 10px;
+}
+#menu-area ul{
+   /* width: 700px;
+    padding-left: 20rem;
+    padding-top: 1rem;
+    justify-content: space-around;
+    list-style: none;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;*/
+    padding-left: 1rem;
+    padding-top: 1.4rem;
+    width: 380px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu-area ul li{
+    position: relative;
+    list-style: none;
+}
+#menu-area ul li a{
+    padding-left: 6rem;
+    padding: 1px 1px;
+    text-decoration: none;
+    color: #ffffff; 
+    
+}
+#menu-area ul li a:hover{
+    text-decoration: none;
+    background-color: #4aac21;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size:16px ;
+    padding: 5px 7px;
+}
+.banner-area{
+    background: url(./images/patrick-schneider-4zOsQ8LtBAM-unsplash.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.banner-text{
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.banner-text h2{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 240%;
+    
+    padding-bottom: 3rem;
+}
+.banner-text a{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #c5c5c5;
+    padding: 8px 16px;
+    border-radius: 2px;
+    
+}
+.banner-text a:hover{
+    color: #a3a3a2;
+    border: 2px solid #aaaaaa;
+}
+.wrapper{
+    padding: 30px;
+}
+.wrapper h2{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-size: 300%;
+}
+.wrapper p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100%;
+    line-height: 210%;
+    text-align: center;
+    margin: 3%;
+}
+#menu-area.cus-nav{
+    background: #2626267e;
+    padding: 10px 10px;
+    z-index: 999;
+}
+#menu-area.cus-nav a{
+    color: #fff;
+    padding-bottom: 1rem;
+}
+#menu-area.cus-nav.log img{
+    height: 105px;
+}
+.my-projects1 h2{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-size: 300%;
+}
+.xop-section{
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 1% 1%;
+    border-radius: 10px;
+}
+.xop-grid{
+    margin: 70px 100px 100px 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+}
+.xop-grid:after{
+    clear: both;
+}
+.xop-grid:after,.xop-box:before{
+    content: "";
+    display: table;
+}
+.xop-grid li{
+    width: 221px;
+    height: 221px;
+    display: inline-block;
+    margin:10px;
+    border-radius: 10px;
+}
+.xop-box{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;    
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out,-webkit-transform 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out,-moz-transform 0.3s ease-in-out;
+    transition: 0.3s ease-in-out,transform 0.3s ease-in-out;
+}
+.xop-box:hover{
+    transform: scale(1.05);
+}
+.xop-img-1{
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10));
+    background: url();
+    -webkit-background-size: cover;
+    background-size: cover;
+    border-radius: 10px;
+}
+.xop-img-2{
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10));
+    background: url();
+    -webkit-background-size: cover;
+    background-size: cover;
+    border-radius: 10px;
+}
+.xop-img-3{
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10));
+    background: url();
+    -webkit-background-size: cover;
+    background-size: cover;
+    border-radius: 10px;
+}
+img.bla{
+    border-radius: 10px;
+}
+.back{
+    text-decoration: none;
+    font-family: 'Roboto Condensed';
+    color: rgb(42, 42, 42);
+    font-size: 20px;
+    font-weight: 700px;
+    
+    
+}
+.back:hover{
+    background-color: #4aac21;
+    color: whitesmoke;
+    border-radius: 1px;
+}
