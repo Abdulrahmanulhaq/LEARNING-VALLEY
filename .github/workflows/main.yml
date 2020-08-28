@@ -32,4 +32,4 @@ jobs:
     - name: Install Surge 
       run: npm install --global surge
     - name: Deploy to surge 
-      run: surge ./ LEARNINGVALLEY.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ learningvalley.surge.sh --token ${{secrets.SURGE_TOKEN}}
