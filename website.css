@@ -12,9 +12,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Quicksand', sans-serif;
 }
+
 #menu-area{
     display: -webkit-flex;
     display: -moz-flex;
@@ -28,11 +30,13 @@ body{
     top: 0;
     transition:background 0.5s;
 }
+
 #menu-area.logo img{
     height: 70px;
     transition: height 0.5s;
     padding-top: 10px;
 }
+
 #menu-area ul{
    /* width: 700px;
     padding-left: 20rem;
@@ -53,10 +57,12 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
 #menu-area ul li{
     position: relative;
     list-style: none;
 }
+
 #menu-area ul li a{
     padding-left: 6rem;
     padding: 1px 1px;
@@ -64,15 +70,17 @@ body{
     color: #ffffff; 
     
 }
+
 #menu-area ul li a:hover{
     text-decoration: none;
-    background-color: #4aac21;
-    color: #fff;
-    border-radius: 10px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 1px;
     cursor: pointer;
     font-size:16px ;
     padding: 5px 7px;
 }
+
 .banner-area{
     background: url(./images/patrick-schneider-4zOsQ8LtBAM-unsplash.jpg);
     -webkit-background-size: cover;
@@ -80,6 +88,7 @@ body{
     background-position: center center;
     height: 100vh;
 }
+
 .banner-text{
     position: absolute;
     top: 41%;
@@ -87,6 +96,7 @@ body{
     transform: translate(-50%,-50%);
     text-align: center;
 }
+
 .banner-text h2{
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
@@ -94,6 +104,7 @@ body{
     
     padding-bottom: 3rem;
 }
+
 .banner-text a{
     font-family: 'Roboto Mono', monospace;
     font-size: 100%;
@@ -104,6 +115,7 @@ body{
     border-radius: 2px;
     
 }
+
 .banner-text a:hover{
     color: #a3a3a2;
     border: 2px solid #aaaaaa;
@@ -111,11 +123,13 @@ body{
 .wrapper{
     padding: 30px;
 }
+
 .wrapper h2{
     font-family: 'Cairo', sans-serif;
     text-align: center;
     font-size: 300%;
 }
+
 .wrapper p{
     font-family: 'Roboto Mono', monospace;
     font-size: 100%;
@@ -123,29 +137,46 @@ body{
     text-align: center;
     margin: 3%;
 }
+
 #menu-area.cus-nav{
     background: #2626267e;
     padding: 10px 10px;
     z-index: 999;
 }
+
 #menu-area.cus-nav a{
     color: #fff;
     padding-bottom: 1rem;
 }
+
 #menu-area.cus-nav.log img{
     height: 105px;
 }
+
 .my-projects1 h2{
     font-family: 'Cairo', sans-serif;
     text-align: center;
     font-size: 300%;
 }
+
+.contact h1{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-size: 300%;
+}
+
+.contact p{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+}
+
 .xop-section{
     max-width: 760px;
     margin: 0 auto;
     padding: 1% 1%;
     border-radius: 10px;
 }
+
 .xop-grid{
     margin: 70px 100px 100px 0;
     padding: 0;
@@ -155,13 +186,16 @@ body{
     width: 100%;
     border-radius: 10px;
 }
+
 .xop-grid:after{
     clear: both;
 }
+
 .xop-grid:after,.xop-box:before{
     content: "";
     display: table;
 }
+
 .xop-grid li{
     width: 221px;
     height: 221px;
@@ -169,6 +203,7 @@ body{
     margin:10px;
     border-radius: 10px;
 }
+
 .xop-box{
     width: 90%;
     height: 90%;
@@ -180,9 +215,11 @@ body{
     -moz-transition: 0.3s ease-in-out,-moz-transform 0.3s ease-in-out;
     transition: 0.3s ease-in-out,transform 0.3s ease-in-out;
 }
+
 .xop-box:hover{
     transform: scale(1.05);
 }
+
 .xop-img-1{
     background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10));
     background: url();
@@ -190,6 +227,7 @@ body{
     background-size: cover;
     border-radius: 10px;
 }
+
 .xop-img-2{
     background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10));
     background: url();
@@ -197,6 +235,7 @@ body{
     background-size: cover;
     border-radius: 10px;
 }
+
 .xop-img-3{
     background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10));
     background: url();
@@ -204,9 +243,11 @@ body{
     background-size: cover;
     border-radius: 10px;
 }
+
 img.bla{
     border-radius: 10px;
 }
+
 .back{
     text-decoration: none;
     font-family: 'Roboto Condensed';
@@ -216,8 +257,31 @@ img.bla{
     
     
 }
+
 .back:hover{
     background-color: #4aac21;
     color: whitesmoke;
     border-radius: 1px;
+}
+
+.banner-form{
+    text-align: center;
+}
+
+.banner-form a{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: black;
+    
+    padding: 8px 16px;
+    border-radius: 2px;
+    
+}
+
+.banner-form a:hover{
+    font-size: 105%;
+    color: #ffffff;
+    background-color: rgb(122, 122, 122);
 }
